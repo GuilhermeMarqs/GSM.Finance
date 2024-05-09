@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GSM.Finance.Dal", "G$M.Finance.Dal\GSM.Finance.Dal.csproj", "{4CAE06BB-5584-4E4A-86FA-A9CBF52A36C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GSM.Finance.Domain", "G$M.Finance.Domain\GSM.Finance.Domain.csproj", "{DC3C694C-A8D1-43B1-84D2-62EA10997050}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CAE06BB-5584-4E4A-86FA-A9CBF52A36C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CAE06BB-5584-4E4A-86FA-A9CBF52A36C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CAE06BB-5584-4E4A-86FA-A9CBF52A36C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CAE06BB-5584-4E4A-86FA-A9CBF52A36C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC3C694C-A8D1-43B1-84D2-62EA10997050}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC3C694C-A8D1-43B1-84D2-62EA10997050}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC3C694C-A8D1-43B1-84D2-62EA10997050}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC3C694C-A8D1-43B1-84D2-62EA10997050}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F8EF040-F04B-4EA9-BA24-A708C3A1856B}
+	EndGlobalSection
+EndGlobal
