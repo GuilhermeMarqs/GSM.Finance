@@ -1,4 +1,4 @@
-@GSM.Finance.API_HostAddress = http://localhost:5275
+@GSM.Finance.API_HostAddress = http://localhost:5198
 
 GET {{GSM.Finance.API_HostAddress}}/weatherforecast/
 Accept: application/json
