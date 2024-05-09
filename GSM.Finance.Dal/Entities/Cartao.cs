@@ -1,4 +1,6 @@
-﻿namespace GSM.Finance.Dal.Entities
+﻿using GSM.Finance.Domain.Enums;
+
+namespace GSM.Finance.Dal.Entities
 {
     public class Cartao
     {
