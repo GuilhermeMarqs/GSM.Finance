@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GSM.Finance.Domain", "GSM.F
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GSM.Finance.API", "GSM.Finance.API\GSM.Finance.API.csproj", "{C73C6007-23A8-46E6-9320-AAEA09B21E53}"
 EndProject
-Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "gsm.finance.web", "GSM.Finance.Web\gsm.finance.web.esproj", "{05029B61-5A12-4319-AEFF-450F1421ACB4}"
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "GSM.Finance.Web", "GSM.Finance.Web\GSM.Finance.Web.esproj", "{05029B61-5A12-4319-AEFF-450F1421ACB4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
