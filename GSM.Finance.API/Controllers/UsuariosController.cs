@@ -1,6 +1,14 @@
-﻿namespace GSM.Finance.API.Controllers
+﻿using Microsoft.AspNetCore.Mvc;
+
+namespace GSM.Finance.API.Controllers
 {
-    public class UsuariosController
+    [ApiController]
+    [Route("Usuarios")]
+    public class UsuariosController : ControllerBase
     {
+        public ActionResult Get() 
+        {
+            return Ok(true);
+        }
     }
 }
