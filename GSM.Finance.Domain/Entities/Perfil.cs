@@ -1,4 +1,4 @@
-﻿namespace GSM.Finance.Dal.Entities
+﻿namespace GSM.Finance.Domain.Entities
 {
     public class Perfil
     {

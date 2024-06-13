@@ -1,6 +1,6 @@
 ﻿using GSM.Finance.Domain.Enums;
 
-namespace GSM.Finance.Dal.Entities
+namespace GSM.Finance.Domain.Entities
 {
     public class Cartao
     {

@@ -1,6 +1,15 @@
-﻿namespace GSM.Finance.API.Controllers
+﻿using Microsoft.AspNetCore.Mvc;
+
+namespace GSM.Finance.API.Controllers
 {
-    public class TransferenciasController
+    [ApiController]
+    [Route("Transferencia")]
+    public class TransferenciasController : ControllerBase
     {
+        public TransferenciasController()
+        {
+
+        }
+
     }
 }

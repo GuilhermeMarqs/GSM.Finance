@@ -1,6 +1,15 @@
-﻿namespace GSM.Finance.API.Controllers
+﻿using Microsoft.AspNetCore.Mvc;
+
+namespace GSM.Finance.API.Controllers
 {
-    public class BancosController
+    [ApiController]
+    [Route("Bancos")]
+    public class BancosController : ControllerBase
     {
+        public BancosController()
+        {
+
+        }
+
     }
 }

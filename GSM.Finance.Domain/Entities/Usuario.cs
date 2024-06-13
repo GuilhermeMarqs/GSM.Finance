@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GSM.Finance.Dal.Entities
+namespace GSM.Finance.Domain.Entities
 {
     public class Usuario
     {

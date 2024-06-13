@@ -3,10 +3,10 @@
 namespace GSM.Finance.API.Controllers
 {
     [ApiController]
-    [Route("Cartoes")]
-    public class CartoesController : ControllerBase
+    [Route("Movimento")]
+    public class MovimentoController : ControllerBase
     {
-        public CartoesController()
+        public MovimentoController()
         {
 
         }
