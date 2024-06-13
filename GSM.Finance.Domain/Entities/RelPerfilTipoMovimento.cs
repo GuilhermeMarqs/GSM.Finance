@@ -1,10 +1,9 @@
 ﻿namespace GSM.Finance.Domain.Entities
 {
-    public class RelPerfilTipoMovimento
+    public class RelPerfilTipoMovimento : Entity
     {
-        public int RelPerfilTipoMovimentoId { get; set; }
-        public int PerfilId { get; set; }
+        public Guid PerfilId { get; set; }
         public virtual required Perfil Perfil { get; set; }
-        public int TipoMovimentoId { get; set; }
+        public Guid TipoMovimentoId { get; set; }
     }
 }

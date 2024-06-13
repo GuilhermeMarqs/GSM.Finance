@@ -1,8 +1,7 @@
 ﻿namespace GSM.Finance.Domain.Entities
 {
-    public class Perfil
+    public class Perfil : Entity
     {
-        public int Perfilid {  get; set; }
         public required string Descricao { get; set; }   
     }
 }

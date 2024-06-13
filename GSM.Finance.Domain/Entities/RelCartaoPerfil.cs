@@ -1,8 +1,8 @@
 ﻿namespace GSM.Finance.Domain.Entities
 {
-    public class RelCartaoPerfil
+    public class RelCartaoPerfil : Entity
     {
-        public int PerfilId { get; set; }
-        public int CartaoId { get; set; }
+        public Guid PerfilId { get; set; }
+        public Guid CartaoId { get; set; }
     }
 }

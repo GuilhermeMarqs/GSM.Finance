@@ -2,9 +2,8 @@
 
 namespace GSM.Finance.Domain.Entities
 {
-    public class Cartao
+    public class Cartao : Entity
     {
-        public int CartaoId { get; set; }  
         public BandeiraCartaoEnum Bandeira { get; set; }
         public string FechamentoFatura { get; set; }
         public decimal Limite { get; set; }

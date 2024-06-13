@@ -1,48 +1,16 @@
 ﻿using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using GSM.Finance.Domain.Entities;
 
 namespace GSM.Finance.Dal.Mapping
 {
-       public class CartaoMapping : IEntityTypeConfiguration<Cartao>
+    public class CartaoMapping : IEntityTypeConfiguration<Cartao>
     {
-        public void Configure(EntityTypeBuilder<Endereco> builder)
+        public void Configure(EntityTypeBuilder<Cartao> builder)
         {
-            builder.HasKey(p => p.Id);
+            builder.HasKey(p => p.CartaoId);
 
-            builder.Property(c => c.Logradouro)
-                .IsRequired()
-                .HasColumnType("varchar(200)");
-
-            builder.Property(c => c.Numero)
-                .IsRequired()
-                .HasColumnType("varchar(50)");
-
-            builder.Property(c => c.Cep)
-                .IsRequired()
-                .HasColumnType("varchar(8)");
-
-            builder.Property(c => c.Complemento)
-                .HasColumnType("varchar(250)");
-
-            builder.Property(c => c.Bairro)
-                .IsRequired()
-                .HasColumnType("varchar(100)");
-
-            builder.Property(c => c.Cidade)
-                .IsRequired()
-                .HasColumnType("varchar(100)");
-
-            builder.Property(c => c.Estado)
-                .IsRequired()
-                .HasColumnType("varchar(50)");
-
-            builder.ToTable("Enderecos");
+            builder.ToTable("FI_CARTOES");
         }
     }
 }

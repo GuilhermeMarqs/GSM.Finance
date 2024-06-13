@@ -7,11 +7,10 @@ using System.Threading.Tasks;
 
 namespace GSM.Finance.Domain.Entities
 {
-    public class Usuario
+    public class Usuario : Entity
     {
-        public int UsuarioId { get; set; } 
 
-        public int PerfilId { get; set; }
+        public Guid PerfilId { get; set; }
         public virtual required Perfil Perfil { get; set; }
         public required string Login { get; set; }
         public required string Senha {  get; set; }  
