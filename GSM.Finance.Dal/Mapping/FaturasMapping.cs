@@ -8,7 +8,7 @@ namespace GSM.Finance.Dal.Mapping
     {
         public void Configure(EntityTypeBuilder<Faturas> builder)
         {
-            builder.HasKey(p => p.FaturaId);
+            builder.HasKey(p => p.Id);
 
             builder.ToTable("FI_FATURAS");
         }

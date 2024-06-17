@@ -8,7 +8,7 @@ namespace GSM.Finance.Dal.Mapping
     {
         public void Configure(EntityTypeBuilder<Cartao> builder)
         {
-            builder.HasKey(p => p.CartaoId);
+            builder.HasKey(p => p.Id);
 
             builder.ToTable("FI_CARTOES");
         }

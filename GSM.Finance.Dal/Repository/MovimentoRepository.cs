@@ -7,7 +7,6 @@ namespace GSM.Finance.Dal.Repository
     public class MovimentoRepository : Repository<Movimento>, IMovimentoRepository
     {
         public MovimentoRepository(MeuDbContext context) : base(context) { }
-
         
     }
 }

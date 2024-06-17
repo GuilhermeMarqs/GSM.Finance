@@ -8,7 +8,7 @@ namespace GSM.Finance.Dal.Mapping
     {
         public void Configure(EntityTypeBuilder<Movimento> builder)
         {
-            builder.HasKey(p => p.MovimentoId);
+            builder.HasKey(p => p.Id);
 
             builder.ToTable("FI_MOVIMENTOS");
         }

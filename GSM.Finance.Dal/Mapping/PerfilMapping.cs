@@ -8,7 +8,7 @@ namespace GSM.Finance.Dal.Mapping
     {
         public void Configure(EntityTypeBuilder<Perfil> builder)
         {
-            builder.HasKey(p => p.PerfilId);
+            builder.HasKey(p => p.Id);
 
             builder.ToTable("FI_PERFIL");
         }
