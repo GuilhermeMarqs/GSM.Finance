@@ -21,6 +21,7 @@ import { UsuarioComponent } from './usuario/usuario.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
+import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 
 @NgModule({
   declarations: [
@@ -47,7 +48,9 @@ import { FooterComponent } from './footer/footer.component';
     MatIconModule,
     MatToolbarModule,
   ],
-  providers: [],
+  providers: [
+    provideAnimationsAsync()
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
