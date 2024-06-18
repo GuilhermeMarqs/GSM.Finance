@@ -5,7 +5,7 @@ namespace GSM.Finance.Domain.Entities
     public class Movimento : Entity
     {
         public MovimentoEnum Tipo { get; set; }
-        public DateTime DataInclusão { get; set; }   
+        public DateTime DataInclusao { get; set; }   
         public string Descricao { get; set; }
         public bool Efetivado { get; set; }
         public decimal Valor {  get; set; }
