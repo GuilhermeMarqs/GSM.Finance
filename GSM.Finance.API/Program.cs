@@ -14,7 +14,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllowSpecificOrigin",
         builder =>
         {
-            builder.WithOrigins("http://localhost:8080") // URL do servidor de desenvolvimento do Vue.js
+            builder.WithOrigins("http://localhost:4200") // URL do servidor de desenvolvimento do Vue.js
                    .AllowAnyHeader()
                    .AllowAnyMethod();
         });

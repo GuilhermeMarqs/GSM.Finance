@@ -7,4 +7,14 @@
     <!-- Folder where production build objects will be placed -->
     <PublishAssetsDirectory>$(MSBuildProjectDirectory)\dist\GSM.Finance.Web\</PublishAssetsDirectory>
   </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="src\app\movimento\Incluir\" />
+    <Folder Include="src\app\movimento\Detalhes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptConfiguration Remove="src\app\movimento\NewFolder\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="src\app\movimento\NewFolder\**" />
+  </ItemGroup>
 </Project>

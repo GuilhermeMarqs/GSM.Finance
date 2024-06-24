@@ -8,7 +8,7 @@ import { CartaoComponent } from './cartao/cartao.component';
 import { CadastroComponent } from './cadastro/cadastro.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { FaturaComponent } from './fatura/fatura.component';
-import { MovimentoComponent } from './movimento/movimento.component';
+import { MovimentoComponent } from './movimento/Lista/movimento.component';
 import { PerfilComponent } from './perfil/perfil.component';
 import { BancoComponent } from './banco/banco.component';
 

@@ -7,6 +7,7 @@ import { MatListModule } from '@angular/material/list';
 import { MatIconModule } from '@angular/material/icon';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HttpClientModule } from '@angular/common/http';
 
 
 import { AppComponent } from './app.component';
@@ -14,7 +15,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { LoginComponent } from './login/login.component';
 import { CadastroComponent } from './cadastro/cadastro.component';
 import { PerfilComponent } from './perfil/perfil.component';
-import { MovimentoComponent } from './movimento/movimento.component';
+import { MovimentoComponent } from './movimento/Lista/movimento.component';
 import { FaturaComponent } from './fatura/fatura.component';
 import { CartaoComponent } from './cartao/cartao.component';
 import { UsuarioComponent } from './usuario/usuario.component';
@@ -48,6 +49,7 @@ import { BancoComponent } from './banco/banco.component';
     MatListModule,
     MatIconModule,
     MatToolbarModule,
+    HttpClientModule
   ],
   providers: [
     provideAnimationsAsync()
