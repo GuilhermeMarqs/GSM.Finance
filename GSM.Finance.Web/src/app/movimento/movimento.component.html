@@ -1,1 +1,91 @@
 <h4>Movimento</h4>
+<hr>
+<form class="form">
+    <div class="row">
+        <div class="col-md-6">
+            <label for="exampleInputEmail1" class="form-label">Data Inicial</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" >
+        </div>
+        <div class="col-md-6">
+            <label for="exampleInputEmail1" class="form-label">Data Final</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <label for="exampleInputEmail1" class="form-label">Banco</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="col-md-6">
+            <label for="exampleInputEmail1" class="form-label">Categoria</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-md-11">
+
+        </div>
+        <button type="submit" class="btn btn-primary">Pesquisar</button>
+    </div>
+</form>
+<hr>
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Data</th>
+        <th scope="col">Descricao</th>
+        <th scope="col">Valor</th>
+        <th scope="col">Categoria</th>
+        <th scope="col">Credito/Débito</th>
+        <th scope="col">Status</th>
+        <th scope="col">Opções</th>
+      </tr>
+      <tr *ngFor="let movimento of movimentos">
+        <td>
+  
+        </td>
+        <td>
+          {{movimento.Descricao}}
+        </td>
+        <td>
+          {{movimento.Descricao}}
+        </td>
+        <td>
+          {{movimento.Descricao}}
+        </td>
+        <td>
+          R$ {{movimento.Descricao}},00
+        </td>
+        <td>
+          {{movimento.Descricao}}
+        </td>
+        <td>
+            {{movimento.Descricao}}
+          </td>
+        <td>
+          <div class="btn-group" role="group" aria-label="Third group">
+            <button type="button" class="btn btn-success">
+              <i class="fa fa-usd"></i>
+            </button>
+          </div>
+          <div class="btn-group" role="group" aria-label="Third group">
+            <button type="submit" class="btn btn-warning">
+              <i class="fa fa-pencil-square-o"></i>
+            </button>
+            
+          </div>
+          <div class="btn-group" role="group" aria-label="Third group">
+            <button type="button" class="btn btn-danger">
+              <i class="fa fa-trash"></i>
+            </button>
+          </div>
+                    
+        </td>
+      </tr>
+    </thead>
+    <tbody>
+      
+    </tbody>
+  </table>

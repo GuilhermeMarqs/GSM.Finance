@@ -10,9 +10,10 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { FaturaComponent } from './fatura/fatura.component';
 import { MovimentoComponent } from './movimento/movimento.component';
 import { PerfilComponent } from './perfil/perfil.component';
+import { BancoComponent } from './banco/banco.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/home', pathMatch: 'full' },
+  { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
   { path: 'login', component: LoginComponent },
   { path: 'usuario', component: UsuarioComponent },
@@ -22,6 +23,7 @@ const routes: Routes = [
   { path: 'fatura', component: FaturaComponent },
   { path: 'movimento', component: MovimentoComponent },
   { path: 'perfil', component: PerfilComponent },
+  {path: 'banco', component:BancoComponent}
 ];
 
 @NgModule({

@@ -1,1 +1,46 @@
-<h4>Dashboard</h4>
+<h2>Dashboard</h2>
+<mat-grid-list [cols]="3" rowHeight="250px">
+    <mat-grid-tile colspan="1" rowspan="1">
+        <mat-card class="card-balanco" appearance="outlined">
+            <mat-card-header>
+              <mat-card-title-group>
+                <mat-card-title class="card-title" style="color: #33AAEE;">Balanço</mat-card-title>
+              </mat-card-title-group>
+            </mat-card-header>
+            <mat-card-content class="card-content">
+             R$ 2500,00
+            </mat-card-content>
+          </mat-card>
+          
+    </mat-grid-tile>
+    <mat-grid-tile colspan="1" rowspan="1">
+        <mat-card class="card-entradas" appearance="outlined">
+            <mat-card-header>
+              <mat-card-title-group>
+                <mat-card-title class="card-title" style="color: green;">Entradas</mat-card-title>
+              </mat-card-title-group>
+            </mat-card-header>
+            <mat-card-content class="card-content">
+             R$ 5500,00 
+            </mat-card-content>
+          </mat-card>
+    </mat-grid-tile>
+    <mat-grid-tile colspan="1" rowspan="1">
+        <mat-card class="card-saidas" appearance="outlined">
+            <mat-card-header>
+              <mat-card-title-group>
+                <mat-card-title class="card-title" style="color: red;">Saídas</mat-card-title>
+              </mat-card-title-group>
+            </mat-card-header>
+            <mat-card-content class="card-content">
+             R$ 3000,00
+            </mat-card-content>
+          </mat-card>
+    </mat-grid-tile>
+</mat-grid-list>
+<hr>  
+<div class="charts-container">
+    <div echarts [options]="pieOption" style="width: 49%; height: 400px;"></div>
+    <div echarts [options]="barOption" style="width: 49%; height: 400px;"></div>
+</div>
+<hr>

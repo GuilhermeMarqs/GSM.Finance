@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrl: './usuario.component.css'
 })
 export class UsuarioComponent {
-
+  testelabel= "Teste teste";
 }

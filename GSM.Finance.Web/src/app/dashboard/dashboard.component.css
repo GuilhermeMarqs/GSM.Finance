@@ -1,0 +1,27 @@
+.demo-chart {
+    height: 400px;
+  }
+
+  .card-balanco, .card-entradas, .card-saidas {
+    height: 200px;
+    width: 90%;
+  }
+
+  .card-content{
+    padding: 10%;
+    text-align: center;
+    font-size: 40px;
+  }
+  .card-title{
+    font-size: 20px;
+  }
+  .charts-container {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+  }
+  
+  #pieChart,
+  #barChart {
+    margin: 0;
+  }

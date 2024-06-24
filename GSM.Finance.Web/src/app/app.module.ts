@@ -22,11 +22,11 @@ import { SidenavComponent } from './sidenav/sidenav.component';
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
+import { BancoComponent } from './banco/banco.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DashboardComponent,
     LoginComponent,
     CadastroComponent,
     PerfilComponent,
@@ -37,6 +37,7 @@ import { provideAnimationsAsync } from '@angular/platform-browser/animations/asy
     SidenavComponent,
     HomeComponent,
     FooterComponent,
+    BancoComponent,
   ],
   imports: [
     BrowserModule,

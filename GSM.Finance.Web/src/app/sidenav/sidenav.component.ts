@@ -20,7 +20,7 @@ export class SidenavComponent {
 
   menuItems = signal<MenuItem[]>([
     { label: 'Dashboard', route: '/dashboard', icon: 'dashboard' },
-    { label: 'Perfil', route: '/perfil', icon: 'person' },
+    { label: 'Banco', route: '/banco', icon: 'account_balance' },
     { label: 'Cartões', route: '/cartao', icon: 'credit_card' },
     { label: 'Movimentos', route: '/movimento', icon: 'swap_horiz' },
     { label: 'Faturas', route: '/fatura', icon: 'receipt' },
