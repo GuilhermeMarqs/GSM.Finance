@@ -11,6 +11,7 @@ import { FaturaComponent } from './fatura/fatura.component';
 import { MovimentoComponent } from './movimento/Lista/movimento.component';
 import { PerfilComponent } from './perfil/perfil.component';
 import { BancoComponent } from './banco/banco.component';
+import { MovimentoIncluirComponent } from './movimento/Incluir/movimento.incluir.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
@@ -22,6 +23,7 @@ const routes: Routes = [
   { path: 'dashboard', component: DashboardComponent },
   { path: 'fatura', component: FaturaComponent },
   { path: 'movimento', component: MovimentoComponent },
+  { path: 'movimento/incluir', component: MovimentoIncluirComponent },
   { path: 'perfil', component: PerfilComponent },
   {path: 'banco', component:BancoComponent}
 ];

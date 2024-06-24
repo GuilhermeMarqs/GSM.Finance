@@ -24,9 +24,13 @@ export class MovimentoService {
   // Obtem todos os carros
   getMovimentos(): Observable<Movimento[]> {
     return this.httpClient.get<Movimento[]>(this.url + '/movimento')
-      .pipe(
-        retry(2),
-        catchError(this.handleError))
+      .pipe(catchError(this.handleError))
+  }
+
+  postMovimento(mov:Movimento): Observable<number> {
+    console.log("Movimento Service - POST")
+    return this.httpClient.post<number>(this.url + '/movimento', mov)
+      .pipe(catchError(this.handleError))
   }
 
   // Manipulação de erros

@@ -1,7 +1,12 @@
 export interface Movimento{
 
     Descricao: string,
-    DataMovimento: Date,
-    
+    Tipo: Date,
+    DataInclusao: Date,
+    Efetivado: boolean,
+    Valor: number,
+    TipoMovimentoId: number,
+    FaturaId: string,
+    Data: Date
 
 }

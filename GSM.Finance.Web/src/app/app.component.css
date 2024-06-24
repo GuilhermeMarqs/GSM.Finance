@@ -14,3 +14,8 @@ mat-sidenav-container{
 mat-sidenav, mat-sidenva-content{
   transition: all 500ms ease-in-out;
 }
+
+.required{
+  color: red;
+
+}

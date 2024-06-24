@@ -1,0 +1,46 @@
+<h1>Incluir Movimento</h1>
+<hr>
+
+  
+<form (ngSubmit)="incluirMovimento()" [formGroup]="incluirForm">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="form-group">
+                <label for="descricao">Descricao</label><span class="required">*</span>
+                <input type="text" class="form-control" id="descricao" formControlName="descricao" >
+            </div>
+            
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="categoria">Categoria</label><span class="required">*</span>
+                <input type="text" class="form-control" id="categoria" formControlName="categoria" >
+            </div>
+            
+        </div>
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="valor">Valor</label><span class="required">*</span>
+                <input type="number" class="form-control" id="valor" formControlName="valor" >
+            </div>
+            
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="formaPagamento">Forma Pagamento</label><span class="required">*</span>
+                <input type="text" class="form-control" id="formaPagamento" formControlName="formaPagamento" >
+              </div>
+        </div>
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="data">Data Movimento</label><span class="required">*</span>
+                <input type="date" class="form-control" id="data" formControlName="data" >
+              </div>
+        </div>
+    </div>
+    <button type="submit" class="btn btn-primary float-right"  [disabled]="incluirForm.invalid">Criar</button>
+  </form>
